@@ -66,7 +66,6 @@ def ordenar_personagens_por_vida(personagens):
                 personagens[j], personagens[j + 1] = personagens[j + 1], personagens[j]
     return personagens
 
-# Main Program Logic
 personagens, num_personagens = importar_personagens('personagens.json')
 print(f"{num_personagens} Personagens Entram em Batalha!")
 
